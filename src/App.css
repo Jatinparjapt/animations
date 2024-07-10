@@ -151,10 +151,7 @@
 }
 @keyframes l3 {to{transform: rotate(1turn)}}
 /* Add this CSS to your main CSS file */
-body{
-  background: rgb(143, 157, 172);
-  font-family:  'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
-}
+
 
 .loadingMainDiv{
   filter: drop-shadow(2px 25px 25px rgba(39, 38, 38, 0.15));
