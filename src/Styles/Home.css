@@ -41,7 +41,7 @@
     padding: 0.5rem;
     margin: 0.25rem;
     border: 1px solid black;
-    background-color: #a3e635; /* bg-green-300 */
+    background-color: rgb(97, 212, 97); /* bg-green-300 */
     cursor: pointer;
 }
 
@@ -49,6 +49,7 @@
 @media (min-width: 768px) {
   .questionContainer {
       width: 100%;
+      margin-left: 2rem ;
   }
 
   .option {
