@@ -9,6 +9,7 @@ function App() {
      <Router>
       <div className="App">
         <Routes>
+          {/* <Route path="/" element={<ProgressBar/>} /> */}
           <Route path="/" element={<Home />} />
           <Route path="/loading" element={<Loading />} />
           <Route path="/success" element={<Success />} />

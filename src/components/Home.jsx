@@ -1,9 +1,11 @@
+// Home.jsx
 import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import '../Styles/Home.css';
+import ProgressBar from './ProgressBar';
 
 const Home = () => {
-    const navigate = useNavigate()
+    const navigate = useNavigate();
     const [currentQuestion, setCurrentQuestion] = useState(0);
     const [animation, setAnimation] = useState("");
     const [addClass, setAddClass] = useState("");
@@ -37,6 +39,7 @@ const Home = () => {
             handleNavigation(1);
         }
     };
+
     const update = () => {
         if (!selectedOption) {
             setAddClass("bounce-animation");
@@ -48,6 +51,7 @@ const Home = () => {
 
     return (
         <section className="homeMainDiv">
+            <ProgressBar currentQuestion={currentQuestion} totalQuestions={questions.length} />
             <main className={`mainDiv ${animation}`}>
                 <div className="questionContainer">
                     <div className="question">
