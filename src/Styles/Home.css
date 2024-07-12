@@ -182,6 +182,7 @@
 
 /* ProgressBar styles */
 .progressBarContainer {
+  margin-top: 20px;
   width: 100%;
   height: 5px;
   background-color: #e0e0e0;
